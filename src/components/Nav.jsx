@@ -13,7 +13,7 @@ function Nav() {
   };
   return (
     <div className=" bg-yellow-500  z-10 top-0 left-0 flex flex-col lg:flex-row items-center px-6 py-3 justify-between">
-      <Link className="mb-3" to={`/`}>FAST PIZZA CO.</Link>
+      <Link className="mb-3 lg:mb-0" to={`/`}>FAST PIZZA CO.</Link>
       <form className=" relative" onSubmit={searchHandler}>
         <input
           name="orderId"
