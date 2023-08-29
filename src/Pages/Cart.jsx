@@ -10,7 +10,7 @@ const dispatch = useDispatch();
 const clearCartHandler = ()=>dispatch(clearCart())
   if (cart.length > 0) {
     return (
-      <div className=" p-8 flex-1">
+      <div className=" p-4 lg:p-8 md:w-3/4 md:mx-auto flex-1">
         <Link className=" text-blue-700 hover:underline" to={`/menu`}>
           &larr; back to menu
         </Link>
