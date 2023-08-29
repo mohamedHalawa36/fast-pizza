@@ -10,7 +10,6 @@ function OrderDetails() {
     orderPrice,
     priorityPrice,
     priority,
-    status,
     estimatedDelivery,
   } = order;
   const date = new Date(estimatedDelivery);

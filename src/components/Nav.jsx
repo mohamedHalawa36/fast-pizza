@@ -12,7 +12,7 @@ function Nav() {
     navigate(`/order/${searchQuery}`);
   };
   return (
-    <div className=" bg-yellow-500  z-10 top-0 left-0 flex flex-col items-center px-6 py-3 justify-between">
+    <div className=" bg-yellow-500  z-10 top-0 left-0 flex flex-col lg:flex-row items-center px-6 py-3 justify-between">
       <Link className="mb-3" to={`/`}>FAST PIZZA CO.</Link>
       <form className=" relative" onSubmit={searchHandler}>
         <input
